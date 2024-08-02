@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import BtnDarkMode from '../btnDarkMode/BtnDarkMode'
+import BtnDarkMode from "../btnDarkMode/BtnDarkMode"
 import './style.css'
 const Navbar = () => {
 
@@ -20,18 +20,18 @@ const Navbar = () => {
                     <ul className="nav-list">
                         <li className="nav-list__item">
                             < NavLink to="/" className={({ isActive }) => isActive ? activeLink : normalLink} >
-                                Home
+                                Главная
                             </NavLink>
 
                         </li>
                         <li className="nav-list__item">
                             < NavLink to="/projects" className={({ isActive }) => isActive ? activeLink : normalLink} >
-                                Projects
+                                Проекты
                             </NavLink>
                         </li>
                         <li className="nav-list__item">
                             < NavLink to="/contacts" className={({ isActive }) => isActive ? activeLink : normalLink} >
-                                Contacts
+                                Контакты
                             </NavLink>
                         </li>
                     </ul>

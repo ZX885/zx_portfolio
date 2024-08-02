@@ -5,13 +5,13 @@ const Header =() => {
         <header className="header">
             <div className="header__wrapper">
                 <h1 className="header__title">
-                    <strong>Hi, my name is <em>Zarrukh</em></strong><br />
-                    a Fullstack developer
+                    <strong>Hello world, меня завут <em>Заррух</em></strong><br />
+                     Fullstack разработчик
                 </h1>
                 <div className="header__text">
-                    <p>with passion for learning and creating.</p>
+                    <p>со страстью учиться и творить.</p>
                 </div>
-                <a href="#!" className="btn">Download CV</a>
+                {/* <a href="#!" className="btn">Download CV</a> */}
             </div>
         </header>
     );

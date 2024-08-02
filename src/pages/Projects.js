@@ -6,7 +6,7 @@ const Projects = () => {
     return (
         <main className="section">
             <div classNameName="container">
-                <h2 className="title-1">Projects</h2>
+                <h2 className="title-1">Проекты</h2>
                 <ul className="projects">
                     {/* <NavLink to='/project' > */}
                     {projects.map((projects, index)=>{
