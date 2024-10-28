@@ -8,6 +8,7 @@ body{
 	border-bottom: 1px solid var(--nav-border);
 	color: var(--nav-text);
 	letter-spacing: normal;
+	text-transform: uppercase;
 }
 
 .nav-row {
@@ -65,4 +66,16 @@ body{
 	height: 2px;
 	width: 100%;
 	background-color: var(--accent);
+}
+.connect{
+	/* background-color: color-mix(in srgb, color percentage, color percentage); */
+	/* background: radial-gradient(rgb(16, 30, 49),blue); */
+	width: 120px;
+	display: flex;
+	justify-content: center;
+	padding: 8px;
+	border-radius: 10px;
+	cursor: pointer;
+	text-shadow: 10px 10px 19px #2101ec,
+				 -10px -10px 19px #8a21e9;
 }

@@ -22,20 +22,6 @@ const Contacts = () =>{
                         <p><a href="mailto:zarruhzakirov@gmail.com">zarruhzakirov@gmail.com</a></p>
                     </li>
                 </ul>
-                {/* <ul className="content-list">
-                    <li className="content-list__item">
-                        <h2 className="title-2">Локация</h2>
-                        <p>Самарканд, Узбекистан</p>
-                    </li>
-                    <li className="content-list__item">
-                        <h2 className="title-2">Telegram / WhatsApp</h2>
-                        <p><a href="tel:+79051234567">+998 (99) 260-92-64</a></p>
-                    </li>
-                    <li className="content-list__item">
-                        <h2 className="title-2">Email</h2>
-                        <p><a href="mailto:zarruhzakirov@gmail.com">zarruhzakirov@gmail.com</a></p>
-                    </li>
-                </ul> */}
 
         </div>
     </main>

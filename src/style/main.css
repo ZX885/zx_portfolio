@@ -49,12 +49,13 @@ html,
 body {
 	min-height: 100vh;
 
-	font-family: 'DM Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	letter-spacing: -0.5px;
 
 	/* Light mode */
 	background-color: var(--page-bg);
 	color: var(--text-color);
+	text-transform: uppercase;
 }
 #root{
 	min-height: 100vh;
