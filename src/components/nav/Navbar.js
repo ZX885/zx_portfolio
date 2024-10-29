@@ -35,7 +35,7 @@ const Navbar = () => {
                             </NavLink>
                         </li>
                         <li className="nav-list__item connect">
-                            < NavLink to="/connect" className={({ isActive }) => isActive ? activeLink : normalLink} >
+                            < NavLink to="https://t.me/AKM_SHOOT" className={({ isActive }) => isActive ? activeLink : normalLink} >
                                 Связаться
                             </NavLink>
                         </li>
