@@ -57,6 +57,13 @@ const projects =[
         imgbig: projects06Big,
         githubLink: 'https://github.com'
     },
+    {
+        title: "Online store",
+        skills: " React, Django, Node.js, MongoDB",
+        img: projects06,
+        imgbig: projects06Big,
+        githubLink: 'https://github.com'
+    },
 ]
 
 export default projects;

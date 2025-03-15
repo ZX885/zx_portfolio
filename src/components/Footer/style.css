@@ -34,7 +34,8 @@
 .links{
 	display: grid;
 	justify-items: center;
-	grid-template-columns: repeat(4,1fr);
+	align-items: center;
+	grid-template-columns: repeat(3,1fr);
 	margin: 10px;
 }
 

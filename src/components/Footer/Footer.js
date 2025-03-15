@@ -1,4 +1,5 @@
 import './style.css'
+// import './style.scss'
 
 // import vk from './../../img/icons/vk.svg'
 import gitHub from './../../img/icons/gitHub.svg'
@@ -13,7 +14,7 @@ const Footer = () => {
       <div className="container">
         <div className='footer-link'>
           <ul className='links'>
-            <li className='links-item'>
+            {/* <li className='links-item'>
               <h1>Pages</h1>
                 <ul>
                   <a href='/'>Page 1</a>
@@ -23,6 +24,18 @@ const Footer = () => {
                 </ul>
                 <ul>
                   <a href='/'>Page 1</a>
+                </ul>
+            </li> */}
+            <li className='links-item'>
+              <h1>Pages</h1>
+                <ul>
+                  <a href='/projects'>Projects</a>
+                </ul>
+                <ul>
+                  <a href='/'>Page 2</a>
+                </ul>
+                <ul>
+                  <a href='/'>Page 3</a>
                 </ul>
             </li>
             <li className='links-item'>
@@ -31,22 +44,10 @@ const Footer = () => {
                   <a href='/'>Page 1</a>
                 </ul>
                 <ul>
-                  <a href='/'>Page 1</a>
+                  <a href='/'>Page 2</a>
                 </ul>
                 <ul>
-                  <a href='/'>Page 1</a>
-                </ul>
-            </li>
-            <li className='links-item'>
-              <h1>Pages</h1>
-                <ul>
-                  <a href='/'>Page 1</a>
-                </ul>
-                <ul>
-                  <a href='/'>Page 1</a>
-                </ul>
-                <ul>
-                  <a href='/'>Page 1</a>
+                  <a href='/'>Page 3</a>
                 </ul>
             </li>
             <li className='links-item'>
